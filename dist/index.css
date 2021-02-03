@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Bad Script', cursive !important;
+  background-color: #EEEFE9;
+}
+
+#content {
+  min-width: 768px;
+  overflow: hidden;
+
+}
+
+
+/* navbar */
+.tabs {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Bad Script', cursive;
+}
+
+.tabs h1 {
+  margin: auto;
+  color: rgb(24, 151, 24);
+  align-self: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.tabs>ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 2rem;
+
+}
+
+.tabs .trigger {
+  list-style-type: none;
+  margin: 4px 40px 4px 40px;
+
+  cursor: pointer;
+}
+
+.tabs .trigger:hover {
+  color: rgb(24, 151, 24);
+}
+
+.tabs .trigger.active {
+  color: rgb(24, 151, 24);
+}
+
+/* restaurant details */
+.restaurant-details {
+  display: none;
+  margin: auto;
+  grid-template-columns: auto 1fr;
+
+}
+
+.restaurant-details.active {
+  display: grid;
+
+}
+
+.restaurant-details img {
+  border-radius: 50%;
+  margin-left: 300px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 2px 1px rgb(24, 151, 24);
+}
+
+.restaurant-details button {
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 20px;
+  justify-self: center;
+  height: 60px;
+  width: 100px;
+  outline: none !important;
+
+}
+
+.information {
+  display: grid;
+}
+
+.information h2 {
+  margin-bottom: -100px;
+  font-size: 3rem;
+
+}
+
+.information p {
+  margin-top: 0;
+  font-size: 2rem;
+  margin-left: 10%;
+
+}
+
+/* restaurant details */
+/* Menu */
+
+.menu {
+  display: none;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 1200px;
+  margin: auto;
+}
+
+.menu.active {
+  display: grid;
+
+}
+
+.menu img {
+  border-radius: 10px;
+}
+
+.food-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+
+}
+
+.food-description h2 {
+  font-size: xx-large;
+  font-weight: bold;
+
+}
+
+.food-description p {
+  font-size: 1.5rem;
+}
+
+/* menu */
+.contact {
+  display: none;
+  background-color: #eceee3;
+  padding: 20px;
+  border-radius: 10px;
+  width: 800px;
+  height: 700px;
+  margin: auto;
+  box-shadow: 0 5px 10px rgba(161, 166, 187, 0.05), 0 15px 40px rgba(181, 186, 206, 0.2);
+  backdrop-filter: blur(10px);
+  font-weight: bold;
+}
+
+.contact.active {
+  display: block;
+}
+
+.contact button {
+  margin-top: 30px;
+  margin-left: 80%;
+  margin-right: 0;
+  left: 0;
+
+}
