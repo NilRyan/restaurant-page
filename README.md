@@ -1,5 +1,6 @@
 # Restaurant Landing Page
 Restaurant landing page using HTML, CSS and Vanilla Javascript
+https://nilryan.github.io/restaurant-page/
 
 ## Learning Outcomes
 1. Familiarization with ES6 modules syntax
